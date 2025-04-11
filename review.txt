@@ -1,0 +1,88 @@
+chạy composer update
+
+copy nội dung file .env.example
+
+tạo file .env mới
+
+chạy lệnh php artisan key:generate
+
+đổi tên name database
+
+pdf
+composer require barryvdh/laravel-DOMPDF_DEFAULT_FONT
+.env
+DOMPDF_DEFAULT_FONT=Arial
+DOMPDF_PAPER_SIZE=A4
+DOMPDF_PAPER_ORIENTATION=portrait
+
+composer require spatie/laravel-permission
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+composer require laravel/socialite
+excel
+composer require maatwebsite/excel
+composer require phpoffice/phpspreadsheet
+
+
+chạy migrate
+
+php artisan db:seed --class=RolesAndPermissionsSeeder
+php artisan db:seed --class=UsersTableSeeder
+php artisan db:seed --class=PaymentMethodsTableSeeder
+php artisan db:seed --class=PromotionsTableSeeder
+php artisan db:seed --class=OrdersTableSeeder
+php artisan db:seed --class=BrandsTableSeeder
+php artisan db:seed --class=CataloguesTableSeeder
+php artisan db:seed --class=ProductsTableSeeder
+php artisan db:seed --class=AttributesTableSeeder
+php artisan db:seed --class=AttributeValueTableSeeder
+php artisan db:seed --class=ProductVariantsTableSeeder
+php artisan db:seed --class=ProductVariantAttributesTableSeeder
+php artisan db:seed --class=OrderItemTableSeeder
+php artisan db:seed --class=CategoriesTableSeeder
+php artisan db:seed --class=PostSeeder
+php artisan db:seed --class=CommentSeeder
+php artisan db:seed --class=BannerSeeder
+php artisan db:seed --class=ContactSeeder
+php artisan db:seed --class=UserPromotionsSeeder
+php artisan db:seed --class=AdvertisementsTableSeeder
+php artisan db:seed --class=FavoritesTableSeeder
+php artisan db:seed --class=DiscountSeeder
+
+chạy full seeder
+php artisan db:seed
+
+
+php artisan migrate:refresh
+
+
+
+Zaia Enterprise
+
+
+Đăng nhập admin
++ mail: john.doe@example.com  pass: password123
+
+
+
+hello
+#git
+git branch -a
+git checkout tên
+git pull
+git pull origin main
+git add .
+git status
+git commit -m "nd"
+git pull
+git pull origin main
+git push
+
+ấn vào diem thưởng r mới mua hàng dcdc
+
+
+
+php artisan config:cache
+php artisan cache:clea
+
+
+ảnh trong mô tả auto 700
